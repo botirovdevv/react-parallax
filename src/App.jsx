@@ -3,7 +3,6 @@ import React from 'react';
 import { Parallax } from 'react-scroll-parallax';
 import img from './assets/img.jpg';
 import img2 from './assets/img2.avif';
-import img3 from './assets/img3.jpg';
 import img4 from './assets/imf3.jpg';
 import './assets/bg.css';
 
