@@ -1,0 +1,101 @@
+.container {
+    height: 200vh;
+    padding: 50px;
+    position: relative;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    top: 200px;
+    z-index: 3;
+    font-size: 35px;
+    text-align: center;
+    color: #333;
+
+}
+
+.image {
+    border-radius: 10px;
+    width: 250px;
+    position: absolute;
+}
+
+.image1 {
+    left: 8%;
+    top: 150px;
+    z-index: 1;
+}
+
+.image2 {
+    left: 25%;
+    top: 150px;
+    z-index: 1;
+}
+
+.image3 {
+    left: 0%;
+    top: 180px;
+    z-index: 1;
+}
+
+.image4 {
+    left: 55%;
+    top: 150px;
+    z-index: 1;
+}
+
+.image5 {
+    left: 75%;
+    top: 350px;
+    z-index: 1;
+}
+
+.image6 {
+    left: 75%;
+    top: 350px;
+    z-index: 1;
+}
+
+.image7 {
+    right: 10%;
+    top: 100px;
+    z-index: 1;
+}
+
+.image8 {
+    left: 50%;
+    top: 250px;
+    z-index: 1;
+}
+
+.image9 {
+    left: 29%;
+    top: 350px;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .image {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .image {
+        width: 150px;
+    }
+}
+
+.t {
+    position: relative;
+    z-index: 3;
+}
