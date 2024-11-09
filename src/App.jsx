@@ -9,7 +9,7 @@ import './assets/bg.css';
 const App = () => {
   return (
     <div className="container">
-      <h1 className="text">Biz bilan 1000+ o'quvchi sertifikatli bo‘ldi</h1>
+      <h1 className="text">1000+ students got certified with us</h1>
 
       <Parallax speed={-10} className='t'>
         <img src={img} alt="Image 1" className="image image1" />
